@@ -13,7 +13,7 @@ from cachetools import LRUCache
 import re
 
 # Configure Google Generative AI
-GOOGLE_API_KEY = "AIzaSyDPTfc3gwLPFL86KljNk10eMGKTsaEqewc"
+GOOGLE_API_KEY = "AIzaSyDPTfc3gwLPFL86KljNc"
 genai.configure(api_key=GOOGLE_API_KEY)
 model = genai.GenerativeModel('gemini-1.5-flash')
 
